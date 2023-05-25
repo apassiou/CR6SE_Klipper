@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#v05.2023 by Duxa
+
 #Put this script into root crontab
 #sudo crontab -e
 #@reboot /home/pi/auto_shutdown.sh <-- change directory as appropriate
