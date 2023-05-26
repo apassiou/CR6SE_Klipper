@@ -13,10 +13,10 @@ sleep 15m
 while true
 do
   if [ -e /dev/ttyUSB0 ]; then
-    printf "Printer is On/n"
+    printf "Printer is On\n"
     sleep 15m
   else
-    printf "Printer is Off, Turning Off/n"
+    printf "Printer is Off, Turning Off\n"
     wall "Printer OFF"
     sleep 10s
     sudo shutdown now
