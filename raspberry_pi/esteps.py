@@ -5,7 +5,7 @@
 
 mark = float(input('Enter mark spot, recommend 70mm: '))
 extrude = mark - 20
-print("send Gcode: \n G91\n G1 E" + str(extrude) + " F30")
+print("Preheat Extruder, then send Gcode: \n G91\n G1 E" + str(extrude) + " F30")
 leftover = float(input("Enter distance to mark after extrusion: "))
 actual = mark-leftover
 print("Actual amount extruded: " + str(actual))
