@@ -8,3 +8,9 @@ CR6.cfg          - macros and other functions config <br>
 inputShaper.cfg  - defaults for input shaper <br>
 auto_shutdown.sh - script to be run in crontab to shut down Rpi if printer is off <br>
 esteps.py        - calculator for esteps (rotation_distance) <br>
+
+**Instructions:**
+
+1. Set up mainsail (follow directions here https://docs-os.mainsail.xyz/getting-started)
+2. Build and flash Klipper for CR6SE https://www.klipper3d.org/Installation.html
+3. Use config files from this repo
