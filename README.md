@@ -13,5 +13,5 @@ klipper.bin      - compiled Klipper firmware as of May 2023 for flashing the pri
 **Instructions:**
 
 1. Set up mainsail (follow directions here https://docs-os.mainsail.xyz/getting-started)
-2. Build and flash Klipper for CR6SE https://www.klipper3d.org/Installation.html
+2. Build and flash Klipper for CR6SE https://www.klipper3d.org/Installation.html (alternatively use included build to flash the printer then update via web interface once all set up)
 3. Use config files from this repo
