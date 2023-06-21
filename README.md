@@ -5,7 +5,7 @@ Included files:
 
 printer.cfg      - main config file <br>
 CR6.cfg          - macros and other functions config <br>
-inputShaper.cfg  - defaults for input shaper <br>
+inputShaper.cfg  - calibrated with ADXL345 <br>
 auto_shutdown.sh - script to be run in crontab to shut down Rpi if printer is off <br>
 esteps.py        - calculator for esteps (rotation_distance) <br>
 klipper.bin      - compiled Klipper firmware as of May 2023 for flashing the printer
